@@ -52,7 +52,7 @@ func (pq *PriorityQueue) Push(x interface{}) {
 	item := x.(*Item)
 	item.Index = n
 	*pq = append(*pq, item)
-	log.Println(pq)
+	//log.Println(pq)
 }
 
 func (pq *PriorityQueue) Pop() interface{} {
