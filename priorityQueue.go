@@ -2,7 +2,6 @@ package priorityQueue
 
 import (
 	"container/heap"
-	"log"
 	"sync"
 )
 
